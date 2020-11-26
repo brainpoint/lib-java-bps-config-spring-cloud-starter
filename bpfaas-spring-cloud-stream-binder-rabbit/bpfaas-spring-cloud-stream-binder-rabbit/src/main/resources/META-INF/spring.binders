@@ -1,0 +1,2 @@
+bprabbit:\
+org.springframework.cloud.stream.binder.bprabbit.config.BpRabbitServiceAutoConfiguration
