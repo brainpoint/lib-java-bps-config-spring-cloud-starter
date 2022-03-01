@@ -1,13 +1,13 @@
 
-[![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.bpfaas/bps-config-server-spring-cloud-starter/badge.svg)](https://maven-badges.herokuapp.com/maven-central/com.bpfaas/bps-config-server-spring-cloud-starter/)
-[![License](https://img.shields.io/github/license/bpfaas/java-bps-config-server-spring-cloud-starter)](https://opensource.org/licenses/MIT)
+[![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.bpfaas/bps-config-client-spring-cloud-starter/badge.svg)](https://maven-badges.herokuapp.com/maven-central/com.bpfaas/bps-config-client-spring-cloud-starter/)
+[![License](https://img.shields.io/github/license/bpfaas/java-bps-config-client-spring-cloud-starter)](https://opensource.org/licenses/MIT)
 
 
 ```html
 <dependency>
     <groupId>com.bpfaas</groupId>
     <artifactId>bps-config-client-spring-cloud-starter</artifactId>
-    <version>0.0.1</version>
+    <version>3.0.1.RELEASE</version>
 </dependency>
 ```
 
