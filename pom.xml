@@ -16,8 +16,9 @@
     </properties>
 
     <modules>
-        <module>bpfaas-spring-cloud-stream-binder-rabbit</module>
+        <!-- <module>bpfaas-spring-cloud-stream-binder-rabbit</module> -->
         <module>bps-config-client-spring-cloud-starter</module>
+        <module>bps-config-server-novault-spring-cloud-starter</module>
         <module>bps-config-server-spring-cloud-starter</module>
     </modules>
 
