@@ -10,7 +10,7 @@ without-vault
 <dependency>
     <groupId>com.bpfaas</groupId>
     <artifactId>bps-config-server-novault-spring-cloud-starter</artifactId>
-    <version>3.0.1.RELEASE</version>
+    <version>3.0.2.RELEASE</version>
 </dependency>
 ```
 
@@ -24,7 +24,7 @@ with-vault
 <dependency>
     <groupId>com.bpfaas</groupId>
     <artifactId>bps-config-server-spring-cloud-starter</artifactId>
-    <version>3.0.1.RELEASE</version>
+    <version>3.0.2.RELEASE</version>
 </dependency>
 ```
 

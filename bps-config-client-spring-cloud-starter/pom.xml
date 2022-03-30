@@ -51,8 +51,8 @@
         <!-- Dependency Versions -->
         <spring.boot.version>2.2.7.RELEASE</spring.boot.version>
         <spring.cloud-starter.version>2.2.3.RELEASE</spring.cloud-starter.version>
-        <spring.cloud-config-client.version>2.2.3.RELEASE</spring.cloud-config-client.version>
-        <spring.cloud-bus.version>2.2.3.RELEASE</spring.cloud-bus.version>
+        <spring.cloud-config-client.version>3.1.1</spring.cloud-config-client.version>
+        <spring.cloud-bus.version>3.1.0</spring.cloud-bus.version>
         <flatten-maven-plugin.version>1.2.2</flatten-maven-plugin.version>
         <lombok.version>1.18.12</lombok.version>
         <slf4j.version>1.7.30</slf4j.version>
