@@ -35,7 +35,7 @@
 
     <properties>
         <!-- Project revision -->
-        <revision>3.0.2</revision>
+        <revision>3.0.3</revision>
         <changelist>.RELEASE</changelist>
         <repository.snapshotId>ossrh</repository.snapshotId>
         <repository.snapshotUrl>https://oss.sonatype.org/content/repositories/snapshots/</repository.snapshotUrl>

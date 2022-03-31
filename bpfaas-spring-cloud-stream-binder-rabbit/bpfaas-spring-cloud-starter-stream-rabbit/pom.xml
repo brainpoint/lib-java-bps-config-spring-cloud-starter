@@ -4,7 +4,7 @@
 	<parent>
 		<groupId>com.bpfaas</groupId>
 		<artifactId>bpfaas-spring-cloud-stream-binder-rabbit-parent</artifactId>
-		<version>3.0.2.RELEASE</version>
+		<version>3.0.3.RELEASE</version>
 		<relativePath>../pom.xml</relativePath>
 	</parent>
 	<artifactId>bpfaas-spring-cloud-starter-stream-rabbit</artifactId>

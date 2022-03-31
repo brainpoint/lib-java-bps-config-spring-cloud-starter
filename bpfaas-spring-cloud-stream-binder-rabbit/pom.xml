@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.bpfaas</groupId>
 	<artifactId>bpfaas-spring-cloud-stream-binder-rabbit-parent</artifactId>
-	<version>3.0.2.RELEASE</version>
+	<version>3.0.3.RELEASE</version>
 	<packaging>pom</packaging>
 	<parent>
 		<groupId>org.springframework.cloud</groupId>
