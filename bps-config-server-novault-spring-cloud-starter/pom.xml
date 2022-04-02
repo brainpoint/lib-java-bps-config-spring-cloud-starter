@@ -35,7 +35,7 @@
 
     <properties>
         <!-- Project revision -->
-        <revision>3.0.3</revision>
+        <revision>3.0.4</revision>
         <changelist>.RELEASE</changelist>
         <repository.snapshotId>ossrh</repository.snapshotId>
         <repository.snapshotUrl>https://oss.sonatype.org/content/repositories/snapshots/</repository.snapshotUrl>
@@ -49,10 +49,8 @@
         <maven.compiler.target>1.8</maven.compiler.target>
 
         <!-- Dependency Versions -->
-        <spring.boot.version>2.2.7.RELEASE</spring.boot.version>
-        <spring.cloud-starter.version>2.2.3.RELEASE</spring.cloud-starter.version>
-        <spring.cloud-starter-config.version>2.2.3.RELEASE</spring.cloud-starter-config.version>
-        <spring.cloud-bus.version>2.2.0.RELEASE</spring.cloud-bus.version>
+        <spring.cloud-starter-config.version>3.1.1</spring.cloud-starter-config.version>
+        <spring.cloud-bus.version>3.1.0</spring.cloud-bus.version>
         <flatten-maven-plugin.version>1.2.2</flatten-maven-plugin.version>
         <lombok.version>1.18.12</lombok.version>
         <slf4j.version>1.7.30</slf4j.version>

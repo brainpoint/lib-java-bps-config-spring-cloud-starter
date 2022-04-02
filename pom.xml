@@ -4,7 +4,7 @@
 
     <groupId>com.bpfaas</groupId>
     <artifactId>config</artifactId>
-    <version>3.0.3.RELEASE</version>
+    <version>3.0.4.RELEASE</version>
     <packaging>pom</packaging>
 
     <properties>
