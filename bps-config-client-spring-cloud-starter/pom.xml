@@ -35,8 +35,8 @@
 
     <properties>
         <!-- Project revision -->
-        <revision>3.0.4</revision>
-        <changelist>.RELEASE</changelist>
+        <revision>3.2.2</revision>
+        <changelist></changelist>
         <repository.snapshotId>ossrh</repository.snapshotId>
         <repository.snapshotUrl>https://oss.sonatype.org/content/repositories/snapshots/</repository.snapshotUrl>
         <repository.releaseId>ossrh</repository.releaseId>
@@ -151,8 +151,8 @@
             <version>${spring.cloud-bus.version}</version>
 		</dependency>
         <dependency>
-            <groupId>com.bpfaas</groupId>
-            <artifactId>bpfaas-spring-cloud-starter-stream-rabbit</artifactId>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-stream-rabbit</artifactId>
 		    <version>${revision}${changelist}</version>
         </dependency>
 

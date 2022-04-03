@@ -10,7 +10,7 @@ without-vault
 <dependency>
     <groupId>com.bpfaas</groupId>
     <artifactId>bps-config-server-novault-spring-cloud-starter</artifactId>
-    <version>3.0.4.RELEASE</version>
+    <version>3.2.2</version>
 </dependency>
 ```
 
@@ -24,7 +24,7 @@ with-vault
 <dependency>
     <groupId>com.bpfaas</groupId>
     <artifactId>bps-config-server-spring-cloud-starter</artifactId>
-    <version>3.0.4.RELEASE</version>
+    <version>3.2.2</version>
 </dependency>
 ```
 
@@ -46,16 +46,16 @@ spring:
 ---
 spring:
   profiles: dev
+  # 消息总线配置.
+  rabbitmq:
+    username: username
+    password: password
+    host: localhost
+    port: 5672
+    virtual-host: /
   cloud:
     # config使用git做应用配置.
     config:
-      # 消息总线配置.
-      bus.rabbitmq:
-        username: username
-        password: password
-        host: localhost
-        port: 5672
-        virtual-host: /
       server:
         encrypt:
           enabled: true

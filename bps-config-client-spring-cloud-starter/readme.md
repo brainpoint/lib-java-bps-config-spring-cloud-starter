@@ -7,7 +7,7 @@
 <dependency>
     <groupId>com.bpfaas</groupId>
     <artifactId>bps-config-client-spring-cloud-starter</artifactId>
-    <version>3.0.4.RELEASE</version>
+    <version>3.2.2</version>
 </dependency>
 ```
 
@@ -29,15 +29,15 @@ spring:
 ---
 spring:
   profiles: dev
+  # 消息总线配置.
+  rabbitmq:
+    username: username
+    password: password
+    host: localhost
+    port: 5672
+    virtual-host: /
   cloud:
     config:
-      # 消息总线信息.
-      bus.rabbitmq:
-        username: username
-        password: password
-        host: localhost
-        port: 5672
-        virtual-host: /
       fail-fast: true   # 连接失败即中断.
       uri: ${BPFAAS_CONFIG_CENTER_URI}
       label: dev
